@@ -8,7 +8,6 @@ const images = [
   { url: "https://picsum.photos/id/239/200/300" },
 ];
 
-
 btn.addEventListener("click", downloadAndDisplayImages);
 
 function downloadImage(url) {
@@ -31,3 +30,5 @@ function downloadAndDisplayImages() {
     .catch(error => {
       console.error(error);
     });
+}
+
